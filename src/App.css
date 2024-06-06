@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  height: 100%;
+}
+body{
+  background-image: url('https://thumbs.dreamstime.com/b/imc-acr%C3%B3nimo-del-%C3%ADndice-de-masa-corporal-concepto-salud-fondo-en-la-pizarra-197817063.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bmi-calc{
+  height: 400px;
+  width: 500px;
+  background-color: rgba(250, 255, 249, 0.475);
+  padding: 20px;
+  border-radius: 8px;
+ margin-left: 60vh;
+ margin-top: 19vh;
+ box-shadow: 0 0 10px rgb(246, 225, 3);
+ 
+}
+.data{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+h1{
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.input{
+  margin-bottom: 15px;
+  font-size: 25px;
+  
+}
+
+label{
+  display: block;
+}
+input{
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+button{
+  background-color: rgb(133, 29, 170);
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover{
+  background-color: blueviolet;
+}
+.result{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid rgb(8, 7, 7);
+  border-radius: 4px;
+}
+.result p{
+  font-size: large;
+  font-weight: 700;
+  color: rgb(171, 16, 16);
+}
